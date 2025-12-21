@@ -9,7 +9,7 @@ def spring_mass_system(y, t, k, m, c):
 
 k = 10.0   
 m = 1.0   
-c = 0    
+c = 0.5
 
 y0 = [1.0, 0.0] 
 t = np.linspace(0, 20, 200)  
